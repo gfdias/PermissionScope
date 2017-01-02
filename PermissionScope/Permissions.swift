@@ -34,45 +34,45 @@ import Accounts
     }
 }
 
-@objc public class LocationWhileInUsePermission: NSObject, Permission {
-    public let type: PermissionType = .LocationInUse
-}
-
-@objc public class LocationAlwaysPermission: NSObject, Permission {
-    public let type: PermissionType = .LocationAlways
-}
-
-@objc public class ContactsPermission: NSObject, Permission {
-    public let type: PermissionType = .Contacts
-}
+//@objc public class LocationWhileInUsePermission: NSObject, Permission {
+//    public let type: PermissionType = .LocationInUse
+//}
+//
+//@objc public class LocationAlwaysPermission: NSObject, Permission {
+//    public let type: PermissionType = .LocationAlways
+//}
+//
+//@objc public class ContactsPermission: NSObject, Permission {
+//    public let type: PermissionType = .Contacts
+//}
 
 public typealias requestPermissionUnknownResult = () -> Void
 public typealias requestPermissionShowAlert     = (PermissionType) -> Void
 
-@objc public class EventsPermission: NSObject, Permission {
-    public let type: PermissionType = .Events
-}
-
-@objc public class MicrophonePermission: NSObject, Permission {
-    public let type: PermissionType = .Microphone
-}
-
-@objc public class CameraPermission: NSObject, Permission {
-    public let type: PermissionType = .Camera
-}
-
-@objc public class PhotosPermission: NSObject, Permission {
-    public let type: PermissionType = .Photos
-}
-
-@objc public class RemindersPermission: NSObject, Permission {
-    public let type: PermissionType = .Reminders
-}
-
-@objc public class BluetoothPermission: NSObject, Permission {
-    public let type: PermissionType = .Bluetooth
-}
-
-@objc public class MotionPermission: NSObject, Permission {
-    public let type: PermissionType = .Motion
-}
+//@objc public class EventsPermission: NSObject, Permission {
+//    public let type: PermissionType = .Events
+//}
+//
+//@objc public class MicrophonePermission: NSObject, Permission {
+//    public let type: PermissionType = .Microphone
+//}
+//
+//@objc public class CameraPermission: NSObject, Permission {
+//    public let type: PermissionType = .Camera
+//}
+//
+//@objc public class PhotosPermission: NSObject, Permission {
+//    public let type: PermissionType = .Photos
+//}
+//
+//@objc public class RemindersPermission: NSObject, Permission {
+//    public let type: PermissionType = .Reminders
+//}
+//
+//@objc public class BluetoothPermission: NSObject, Permission {
+//    public let type: PermissionType = .Bluetooth
+//}
+//
+//@objc public class MotionPermission: NSObject, Permission {
+//    public let type: PermissionType = .Motion
+//}
